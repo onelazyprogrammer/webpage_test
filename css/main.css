@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #1a7240;
+}
+
+.uptptitle{
+    text-align: center;
+}
+
+.navCenter{
+    /*float:right;*/
+    /*width: 90%;*/
+    background-color: #77b692;
+    display: block;
+  }
