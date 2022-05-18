@@ -23,32 +23,48 @@ nav{
 }
 
 .navLeft{
-  width: 20%;
+  /* gradiant code background */
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,195,64,1) 48%, rgba(15,131,21,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,195,64,1) 48%, rgba(15,131,21,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,195,64,1) 48%, rgba(15,131,21,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#0f8315",GradientType=1);
+  /* end gradiant code background*/
+  width: 30%;
   margin:0;
   padding: 8px, 16px;
   height: 30px;
-  background-color: rgba(47, 0, 255, 0.979);
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
 }
+
+.navRight{
+  width: 60%;
+  display: inline-flex;
+  justify-content: flex-end;
+  background-color: #0f8315;
+  height: 30px;
+}
+
+.navItem{
+
+  color:white
+}
+
 
 .navRight a{
   width: 100%;
   margin:0;
   padding: 8px 16px;
   height: 30px;
-  background-color: rgb(39, 199, 18);
+  background-color: #0f8315;
+  color:white;
   display: inline-block;
 }
 
 .navRight a:hover{
-  background-color: green;
-  color: white;
-}
-
-.navItem{
-  background-color: rgb(9, 255, 0);
-  display: inline-block;
-  height: 30px;
+  background-color: #77b692;
+  color: black;
 }
 
 section{
